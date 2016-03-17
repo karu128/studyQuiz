@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E25D271C926A88006F2B39 /* Quiz1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E25D261C926A88006F2B39 /* Quiz1ViewController.swift */; };
+		240F62CE1C29893900CB862D /* kuizujpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 240F62CD1C29893900CB862D /* kuizujpg.png */; };
+		2447EF0E1C92CF3500A880A6 /* doragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2447EF0B1C92CF3500A880A6 /* doragon.jpg */; };
+		2447EF0F1C92CF3500A880A6 /* namakemono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2447EF0C1C92CF3500A880A6 /* namakemono.jpg */; };
+		2447EF101C92CF3500A880A6 /* ninngenn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2447EF0D1C92CF3500A880A6 /* ninngenn.png */; };
 		2467D17E1C24EE6200637471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467D17D1C24EE6200637471 /* AppDelegate.swift */; };
 		2467D1801C24EE6200637471 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467D17F1C24EE6200637471 /* ViewController.swift */; };
 		2467D1831C24EE6200637471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2467D1811C24EE6200637471 /* Main.storyboard */; };
@@ -14,6 +19,29 @@
 		2467D1881C24EE6200637471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2467D1861C24EE6200637471 /* LaunchScreen.storyboard */; };
 		2467D1931C24EE6300637471 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467D1921C24EE6300637471 /* QuizTests.swift */; };
 		2467D19E1C24EE6300637471 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2467D19D1C24EE6300637471 /* QuizUITests.swift */; };
+		2472B4F41C49124E006EB25D /* English.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4EF1C49124E006EB25D /* English.png */; };
+		2472B4F51C49124E006EB25D /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4F01C49124E006EB25D /* images.jpeg */; };
+		2472B4F61C49124E006EB25D /* japanese.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4F11C49124E006EB25D /* japanese.png */; };
+		2472B4F71C49124E006EB25D /* kuizujpg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4F21C49124E006EB25D /* kuizujpg.png */; };
+		2472B4F81C49124E006EB25D /* math.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4F31C49124E006EB25D /* math.png */; };
+		2472B4FC1C4A06DB006EB25D /* science.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4F91C4A06DB006EB25D /* science.png */; };
+		2472B4FD1C4A06DB006EB25D /* socialstudies.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4FA1C4A06DB006EB25D /* socialstudies.png */; };
+		2472B4FE1C4A06DB006EB25D /* yes.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4FB1C4A06DB006EB25D /* yes.jpeg */; };
+		2472B5001C523785006EB25D /* gold_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2472B4FF1C523785006EB25D /* gold_button.png */; };
+		248A4FE91C772FA2001898D7 /* %.png in Resources */ = {isa = PBXBuildFile; fileRef = 248A4FE71C772FA2001898D7 /* %.png */; };
+		248A4FEA1C772FA2001898D7 /* aho.png in Resources */ = {isa = PBXBuildFile; fileRef = 248A4FE81C772FA2001898D7 /* aho.png */; };
+		24E8E1E71C52439300F6FA95 /* ヒョウ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E1E31C52439300F6FA95 /* ヒョウ.jpg */; };
+		24E8E1E81C52439300F6FA95 /* 牛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E1E41C52439300F6FA95 /* 牛.jpg */; };
+		24E8E1E91C52439300F6FA95 /* 犬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E1E51C52439300F6FA95 /* 犬.jpg */; };
+		24E8E1EA1C52439300F6FA95 /* 猫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E1E61C52439300F6FA95 /* 猫.jpg */; };
+		24E8E1EC1C52483000F6FA95 /* bgimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E1EB1C52483000F6FA95 /* bgimage.jpg */; };
+		24E8E1EE1C526C5400F6FA95 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8E1ED1C526C5400F6FA95 /* QuizViewController.swift */; };
+		24E8E1F01C526C7000F6FA95 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E8E1EF1C526C7000F6FA95 /* ResultViewController.swift */; };
+		24E8E1F21C526FBC00F6FA95 /* waku.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E8E1F11C526FBC00F6FA95 /* waku.png */; };
+		24F1155F1C64B67700E18FB6 /* Quiz2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1155E1C64B67700E18FB6 /* Quiz2ViewController.swift */; };
+		24F115611C64B68300E18FB6 /* Quiz3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F115601C64B68300E18FB6 /* Quiz3ViewController.swift */; };
+		24F115631C64B69100E18FB6 /* Quiz4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F115621C64B69000E18FB6 /* Quiz4ViewController.swift */; };
+		24F115651C64B72000E18FB6 /* Quiz5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F115641C64B72000E18FB6 /* Quiz5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +62,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17E25D261C926A88006F2B39 /* Quiz1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz1ViewController.swift; sourceTree = "<group>"; };
+		240F62CD1C29893900CB862D /* kuizujpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuizujpg.png; sourceTree = "<group>"; };
+		2447EF0B1C92CF3500A880A6 /* doragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doragon.jpg; sourceTree = "<group>"; };
+		2447EF0C1C92CF3500A880A6 /* namakemono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = namakemono.jpg; sourceTree = "<group>"; };
+		2447EF0D1C92CF3500A880A6 /* ninngenn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ninngenn.png; sourceTree = "<group>"; };
 		2467D17A1C24EE6200637471 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2467D17D1C24EE6200637471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2467D17F1C24EE6200637471 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,29 @@
 		2467D1991C24EE6300637471 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2467D19D1C24EE6300637471 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		2467D19F1C24EE6300637471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2472B4EF1C49124E006EB25D /* English.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = English.png; sourceTree = "<group>"; };
+		2472B4F01C49124E006EB25D /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		2472B4F11C49124E006EB25D /* japanese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japanese.png; sourceTree = "<group>"; };
+		2472B4F21C49124E006EB25D /* kuizujpg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuizujpg.png; sourceTree = "<group>"; };
+		2472B4F31C49124E006EB25D /* math.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = math.png; sourceTree = "<group>"; };
+		2472B4F91C4A06DB006EB25D /* science.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = science.png; sourceTree = "<group>"; };
+		2472B4FA1C4A06DB006EB25D /* socialstudies.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialstudies.png; sourceTree = "<group>"; };
+		2472B4FB1C4A06DB006EB25D /* yes.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yes.jpeg; sourceTree = "<group>"; };
+		2472B4FF1C523785006EB25D /* gold_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold_button.png; sourceTree = "<group>"; };
+		248A4FE71C772FA2001898D7 /* %.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "%.png"; sourceTree = "<group>"; };
+		248A4FE81C772FA2001898D7 /* aho.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aho.png; sourceTree = "<group>"; };
+		24E8E1E31C52439300F6FA95 /* ヒョウ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ヒョウ.jpg"; sourceTree = "<group>"; };
+		24E8E1E41C52439300F6FA95 /* 牛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牛.jpg"; sourceTree = "<group>"; };
+		24E8E1E51C52439300F6FA95 /* 犬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "犬.jpg"; sourceTree = "<group>"; };
+		24E8E1E61C52439300F6FA95 /* 猫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猫.jpg"; sourceTree = "<group>"; };
+		24E8E1EB1C52483000F6FA95 /* bgimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bgimage.jpg; sourceTree = "<group>"; };
+		24E8E1ED1C526C5400F6FA95 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		24E8E1EF1C526C7000F6FA95 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		24E8E1F11C526FBC00F6FA95 /* waku.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = waku.png; sourceTree = "<group>"; };
+		24F1155E1C64B67700E18FB6 /* Quiz2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz2ViewController.swift; sourceTree = SOURCE_ROOT; };
+		24F115601C64B68300E18FB6 /* Quiz3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz3ViewController.swift; sourceTree = SOURCE_ROOT; };
+		24F115621C64B69000E18FB6 /* Quiz4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz4ViewController.swift; sourceTree = SOURCE_ROOT; };
+		24F115641C64B72000E18FB6 /* Quiz5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz5ViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +153,39 @@
 		2467D17C1C24EE6200637471 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				2447EF0B1C92CF3500A880A6 /* doragon.jpg */,
+				2447EF0C1C92CF3500A880A6 /* namakemono.jpg */,
+				2447EF0D1C92CF3500A880A6 /* ninngenn.png */,
+				248A4FE71C772FA2001898D7 /* %.png */,
+				248A4FE81C772FA2001898D7 /* aho.png */,
+				2467D1811C24EE6200637471 /* Main.storyboard */,
+				24E8E1F11C526FBC00F6FA95 /* waku.png */,
+				24E8E1EB1C52483000F6FA95 /* bgimage.jpg */,
+				24E8E1E31C52439300F6FA95 /* ヒョウ.jpg */,
+				24E8E1E41C52439300F6FA95 /* 牛.jpg */,
+				24E8E1E51C52439300F6FA95 /* 犬.jpg */,
+				24E8E1E61C52439300F6FA95 /* 猫.jpg */,
+				2472B4FF1C523785006EB25D /* gold_button.png */,
+				2472B4F91C4A06DB006EB25D /* science.png */,
+				2472B4FA1C4A06DB006EB25D /* socialstudies.png */,
+				2472B4FB1C4A06DB006EB25D /* yes.jpeg */,
+				2472B4EF1C49124E006EB25D /* English.png */,
+				2472B4F01C49124E006EB25D /* images.jpeg */,
+				2472B4F11C49124E006EB25D /* japanese.png */,
+				2472B4F31C49124E006EB25D /* math.png */,
+				240F62CD1C29893900CB862D /* kuizujpg.png */,
 				2467D17D1C24EE6200637471 /* AppDelegate.swift */,
 				2467D17F1C24EE6200637471 /* ViewController.swift */,
-				2467D1811C24EE6200637471 /* Main.storyboard */,
 				2467D1841C24EE6200637471 /* Assets.xcassets */,
 				2467D1861C24EE6200637471 /* LaunchScreen.storyboard */,
 				2467D1891C24EE6200637471 /* Info.plist */,
+				24E8E1EF1C526C7000F6FA95 /* ResultViewController.swift */,
+				17E25D261C926A88006F2B39 /* Quiz1ViewController.swift */,
+				24E8E1ED1C526C5400F6FA95 /* QuizViewController.swift */,
+				24F1155E1C64B67700E18FB6 /* Quiz2ViewController.swift */,
+				24F115601C64B68300E18FB6 /* Quiz3ViewController.swift */,
+				24F115621C64B69000E18FB6 /* Quiz4ViewController.swift */,
+				24F115641C64B72000E18FB6 /* Quiz5ViewController.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -232,9 +315,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E8E1E91C52439300F6FA95 /* 犬.jpg in Resources */,
+				2472B4F71C49124E006EB25D /* kuizujpg.png in Resources */,
+				24E8E1E71C52439300F6FA95 /* ヒョウ.jpg in Resources */,
+				240F62CE1C29893900CB862D /* kuizujpg.png in Resources */,
+				2472B4F81C49124E006EB25D /* math.png in Resources */,
+				24E8E1EA1C52439300F6FA95 /* 猫.jpg in Resources */,
+				24E8E1EC1C52483000F6FA95 /* bgimage.jpg in Resources */,
+				2472B4F61C49124E006EB25D /* japanese.png in Resources */,
+				2472B4F41C49124E006EB25D /* English.png in Resources */,
+				2472B4FE1C4A06DB006EB25D /* yes.jpeg in Resources */,
+				2447EF0E1C92CF3500A880A6 /* doragon.jpg in Resources */,
 				2467D1881C24EE6200637471 /* LaunchScreen.storyboard in Resources */,
+				2472B4FC1C4A06DB006EB25D /* science.png in Resources */,
+				24E8E1F21C526FBC00F6FA95 /* waku.png in Resources */,
+				248A4FE91C772FA2001898D7 /* %.png in Resources */,
+				2472B5001C523785006EB25D /* gold_button.png in Resources */,
 				2467D1851C24EE6200637471 /* Assets.xcassets in Resources */,
+				2472B4FD1C4A06DB006EB25D /* socialstudies.png in Resources */,
+				2447EF101C92CF3500A880A6 /* ninngenn.png in Resources */,
+				24E8E1E81C52439300F6FA95 /* 牛.jpg in Resources */,
+				248A4FEA1C772FA2001898D7 /* aho.png in Resources */,
+				2447EF0F1C92CF3500A880A6 /* namakemono.jpg in Resources */,
 				2467D1831C24EE6200637471 /* Main.storyboard in Resources */,
+				2472B4F51C49124E006EB25D /* images.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +363,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F115631C64B69100E18FB6 /* Quiz4ViewController.swift in Sources */,
+				24E8E1EE1C526C5400F6FA95 /* QuizViewController.swift in Sources */,
 				2467D1801C24EE6200637471 /* ViewController.swift in Sources */,
+				24F1155F1C64B67700E18FB6 /* Quiz2ViewController.swift in Sources */,
+				24F115651C64B72000E18FB6 /* Quiz5ViewController.swift in Sources */,
 				2467D17E1C24EE6200637471 /* AppDelegate.swift in Sources */,
+				24F115611C64B68300E18FB6 /* Quiz3ViewController.swift in Sources */,
+				24E8E1F01C526C7000F6FA95 /* ResultViewController.swift in Sources */,
+				17E25D271C926A88006F2B39 /* Quiz1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +596,7 @@
 				2467D1A41C24EE6300637471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2467D1A51C24EE6300637471 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +605,7 @@
 				2467D1A71C24EE6300637471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2467D1A81C24EE6300637471 /* Build configuration list for PBXNativeTarget "QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +614,7 @@
 				2467D1AA1C24EE6300637471 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

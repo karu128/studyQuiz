@@ -9,6 +9,19 @@
 import UIKit
 
 class QuizViewController: UIViewController {
+    
+    var quizArry = [AnyObject]()
+    
+    var correctAnswer: Int = 0
+    
+    @IBOutlet var quizTextView: UITextView!
+    
+    @IBOutlet var japaneseButton: UIButton!
+    @IBOutlet var mathButton: UIButton!
+    @IBOutlet var englishButton: UIButton!
+    @IBOutlet var socialstudiesButton: UIButton!
+    @IBOutlet var scienceButton: UIButton!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

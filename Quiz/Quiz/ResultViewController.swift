@@ -28,6 +28,8 @@ class ResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //NSuserDefaultから取り出したい
+
         //pointは正答率（0.0ー1.0)
         let point :Double = Double(correctAnswer) / Double(questionnumber)
         NSLog("正解率は%dだ" , point)

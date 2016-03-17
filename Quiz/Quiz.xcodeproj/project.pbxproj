@@ -178,7 +178,6 @@
 				2467D17F1C24EE6200637471 /* ViewController.swift */,
 				2467D1841C24EE6200637471 /* Assets.xcassets */,
 				2467D1861C24EE6200637471 /* LaunchScreen.storyboard */,
-				2467D1891C24EE6200637471 /* Info.plist */,
 				24E8E1EF1C526C7000F6FA95 /* ResultViewController.swift */,
 				17E25D261C926A88006F2B39 /* Quiz1ViewController.swift */,
 				24E8E1ED1C526C5400F6FA95 /* QuizViewController.swift */,
@@ -186,6 +185,7 @@
 				24F115601C64B68300E18FB6 /* Quiz3ViewController.swift */,
 				24F115621C64B69000E18FB6 /* Quiz4ViewController.swift */,
 				24F115641C64B72000E18FB6 /* Quiz5ViewController.swift */,
+				2467D1891C24EE6200637471 /* Info.plist */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";

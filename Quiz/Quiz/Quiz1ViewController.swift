@@ -29,9 +29,16 @@ class Quiz1ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet var backbutton: UIButton!
     @IBOutlet var answer: UITextField!
     
+    //NSUserDefault
+    var saveData: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //NSUserDefault
+        correctAnswer = saveData.objectForKey("Answer") as? Int
+        quizCount = saveData.objectForKey("Quiz") as? Int
+        saveData.synchronize()
         answer.delegate = self
         
         var tmpArray = [[AnyObject]]()
@@ -74,7 +81,7 @@ class Quiz1ViewController: UIViewController, UITextFieldDelegate {
             quizArray.append(tmpArray[index])
             tmpArray.removeAtIndex(index)
         }
-        let quizCount = quizArray.count
+        
         choiceQuiz()
  
     }
@@ -121,6 +128,11 @@ class Quiz1ViewController: UIViewController, UITextFieldDelegate {
         
         let inputText = answer.text
         
+        //NSUserDefaultに書き込み
+        saveData.setObject(correctAnswer, forKey: "Answer")
+        saveData.setObject(quizCount, forKey: "Quiz")
+        saveData.synchronize()
+        
         if inputText! == quizArray[0][1] as! String{
             
             JPanswer.text = "正解"
@@ -136,10 +148,12 @@ class Quiz1ViewController: UIViewController, UITextFieldDelegate {
         }
     }
     @IBAction func next(sender: AnyObject) {
-        NSLog("correctAnswerは%dだ" , correctAnswer)
-        NSLog("quizCountは%dだ" , quizCount)
+//        NSLog("correctAnswerは%dだ" , correctAnswer)
         quizArray.removeAtIndex(0)
-        //値を保存しなきゃいけない
+        //NSUserDefaultから値を取り出す
+        let correctAnswer = saveData.objectForKey("Answer") as? Int
+        let quizCount = saveData.objectForKey("Quiz") as? Int
+        saveData.synchronize()
         
         if quizArray.count != 0 {
             
@@ -159,8 +173,8 @@ class Quiz1ViewController: UIViewController, UITextFieldDelegate {
                 
                 
                 let resultView = segue.destinationViewController as! ResultViewController
-                resultView.correctAnswer = self.correctAnswer
                 resultView.questionnumber = self.quizCount
+               
             }
         }
         
